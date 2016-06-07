@@ -36,7 +36,7 @@ public class MagicSquare extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                MagicSquare magicSquare = new MagicSquare(15);
+                MagicSquare magicSquare = new MagicSquare(7);
                 
                 System.out.println("Done swing");
             }
